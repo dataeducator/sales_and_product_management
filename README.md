@@ -41,7 +41,7 @@ The data in AdventureWorks 2022 is designed to support a wide range of scenarios
 
 # Data Preparation
 To clean and transform this data, I used Microsoft SQLServer to perform queries on the Calendar, Customers and Products Dimension Tables, and the Budget and Internet Fact Tables.
-## Cleansed DIM_Customers Table
+
 ## Cleansed DIM_Customers Table
 
 This SQL query cleans and structures the "DIM_Customers" table, providing a more organized view of the customer data. The resulting table includes essential customer attributes, such as customer key, first name, last name, full name (combined from first and last name), and gender (with values transformed from 'M' to 'Male' and 'F' to 'Female'). The query also incorporates data from the "DIM_Geography" table to include customer city information.
