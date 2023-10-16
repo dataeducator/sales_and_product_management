@@ -34,7 +34,7 @@ This database contains information about a fictional bicycle manufacturer, Adven
 2. **Product Data:** Information about products, categories, and descriptions.
 3. **Customer Data:** Customer details, including names, addresses, and contact information.
 4. **Employee Data:** regarding employees, their positions, and departments.
-5. **Geographical Data:** Information about geographic regions and territories. 6.
+5. **Geographical Data:** Information about geographic regions and territories.
 6. **Sales Data:** Data about budgets and financial performance.
 
 The data in AdventureWorks 2022 is designed to support a wide range of scenarios and use cases for database and SQL practice. This README file covers the data's use in improving sales reporting and creating dynamic visual dashboards. Please ensure the AdventureWorks 2022 database is installed and accessible for this project.
