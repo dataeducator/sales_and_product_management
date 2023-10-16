@@ -10,6 +10,15 @@ The primary challenges we face are:
 * __Need for Filter Functionality__: Given the diverse range of products and clients managed by each salesperson, we require the capability to apply filters to analyze specific segments of our sales data.
 
 # Business Understanding
+
+## Business Demand Overview: 
+* __Reporter__: Shenique N. – Sales Manager
+* __Value of Change__: Visual dashboards and improved Sales reporting for Salesforce.
+*__Necessary Systems__: PowerBI, CRM System
+*__Other Relevant Information__: Budgets have been delivered in Excel for 2022
+
+## User Stories:
+
 # Data Understanding
 # Data Preparation
 # Data Modeling
