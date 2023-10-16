@@ -18,6 +18,12 @@ The primary challenges we face are:
 *__Other Relevant Information__: Budgets have been delivered in Excel for 2022
 
 ## User Stories:
+| No. | As a          | I want                                | So that                                 | Acceptance Criteria                                  |
+| --- | ------------- | ------------------------------------ | --------------------------------------- | ----------------------------------------------------- |
+| 1   | Sales Manager | to access a PowerBI dashboard        | effectively track which customers and products perform best each month/quarter/year | A PowerBI dashboard updated once daily.   |
+| 2   | Sales Rep     | A detailed PowerBI dashboard         | proactively engages with our most frequent customers and identifies potential future sales opportunities | A PowerBI dashboard that provides the functionality to filter data by each customer. |
+| 3   | Sales Rep     | a detailed overview of sales per product | efficiently monitor and manage the products that are selling the best | A PowerBI dashboard that provides the functionality to filter data by each product. |
+| 4   | Sales Manager | comprehensive PowerBI dashboard to oversee our sales performance over time, enabling a comparison against our budget | can effectively evaluate our sales performance | A PowerBI dashboard that includes graphs and Key Performance Indicators (KPIs) to facilitate a comparison with the budget. |
 
 # Data Understanding
 # Data Preparation
