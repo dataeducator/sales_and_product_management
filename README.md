@@ -30,12 +30,16 @@ The primary challenges we face are:
 
 This database contains information about a fictional bicycle manufacturer, Adventure Works Cycles, and encompasses various aspects of its operations, including sales, products, customers, and more. 
 #### Key Tables and Data Categories 
-1. **Sales Data:** The database contains sales-related information, including orders, order details, and sales territories.
-2. **Product Data:** Information about products, categories, and descriptions.
-3. **Customer Data:** Customer details, including names, addresses, and contact information.
-4. **Employee Data:** regarding employees, their positions, and departments.
-5. **Geographical Data:** Information about geographic regions and territories.
-6. **Sales Data:** Data about budgets and financial performance.
+## Fact Tables
+1. **Internet Sales Data:** The database contains sales-related information, including orders, order details, and sales territories.
+1. **Budget:** Data about budgets and financial performance.
+
+## Dimension Tables
+1. **Product Data:** Information about products, categories, and descriptions.
+1. **Customer Data:** Customer details, including names, addresses, and contact information.
+1. **Calendar Data:** regarding employees, their positions, and departments.
+  
+
 
 The data in AdventureWorks 2022 is designed to support a wide range of scenarios and use cases for database and SQL practice. This README file covers the data's use in improving sales reporting and creating dynamic visual dashboards. Please ensure the AdventureWorks 2022 database is installed and accessible for this project.
 
