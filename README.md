@@ -109,7 +109,8 @@ Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you 
    └──sales_and_product_management/
       ├── README.md                                            Overview for project reviewers  
       ├── queries/                                             Includes SQL queries 
-      ├── tables/                                              Includes tables used in the model                           
+      ├── tables/                                              Includes tables used in the model  
+      ├── dashboards/                                          Includes PowerBI files   
       ├── requirements/                                        Includes requirements of this project and instructions to obtain the dataset
       ├── images/                                              Includes images related to the project
       └── .gitignore                                           Specifies intentionally untracked files
