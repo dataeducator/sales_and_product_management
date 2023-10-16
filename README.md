@@ -62,12 +62,10 @@ Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you 
 ***
 <pre>
    .
-   └──notebook/
+   └──sales_and_product_management/
       ├── README.md                                            Overview for project reviewers  
-      ├── notebook.ipynb                                       Documentation of Full Analysis in Jupyter Notebook
-      ├── presentation.pdf                                     PDF version of Full Analysis shown in a slide deck                                   
-      ├── requirements/                                        Includes requirements to deploy the Streamlit app and instructions to obtain dataset
-      ├── models/                                              Includes models of scaled X_train and random forest for web app deployment
-      ├── images/                                              Includes a folder of images for the project
-      ├── scripts/                                             Includes Python code for the Streamlit web app
+      ├── queries/                                             Includes SQL queries 
+      ├── tables/                                              Includes tables used in the model                           
+      ├── requirements/                                        Includes requirements of this project and instructions to obtain the dataset
+      ├── images/                                              Includes images related to the project
       └── .gitignore                                           Specifies intentionally untracked files
