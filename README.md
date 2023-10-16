@@ -30,11 +30,11 @@ The primary challenges we face are:
 
 This database contains information about a fictional bicycle manufacturer, Adventure Works Cycles, and encompasses various aspects of its operations, including sales, products, customers, and more. 
 #### Key Tables and Data Categories 
-## Fact Tables
+##### Fact Tables
 1. **Internet Sales Data:** The database contains sales-related information, including orders, order details, and sales territories.
 1. **Budget:** Data about budgets and financial performance.
 
-## Dimension Tables
+##### Dimension Tables
 1. **Product Data:** Information about products, categories, and descriptions.
 1. **Customer Data:** Customer details, including names, addresses, and contact information.
 1. **Calendar Data:** regarding employees, their positions, and departments.
