@@ -1,4 +1,9 @@
 # Sales Dashboard
+# Business Understanding
+# Data Understanding
+# Data Preparation
+# Data Modeling
+# Data Evaluation
 <img width="536" alt="sales_report_model" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/6a6b3a1f-771a-412b-80f4-0e35750ff43e">
 <img width="953" alt="cleansed_product_table_query" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/9fb049d0-67de-4edd-b01f-d1fbf4876a21">
 
