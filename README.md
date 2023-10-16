@@ -12,14 +12,14 @@ The primary challenges we face are:
 # Business Understanding
 
 ## Business Demand Overview: 
-* __Reporter__: Shenique N. – Sales Manager
-* __Value of Change__: Visual dashboards and improved Sales reporting for Salesforce.
-* __Necessary Systems__: PowerBI, CRM System
-* __Other Relevant Information__: Budgets have been delivered in Excel for 2022
+-  __Reporter__: Shenique N. – Sales Manager
+-  __Value of Change__: Visual dashboards and improved Sales reporting for Salesforce.
+-  __Necessary Systems__: PowerBI, CRM System
+-  __Other Relevant Information__: Budgets have been delivered in Excel for 2022
 
 ## User Stories:
 | No. | As a          | I want                                | So that                                 | Acceptance Criteria                                  |
-| --- | ------------- | ------------------------------------ | --------------------------------------- | ----------------------------------------------------- |
+| --- | ------------- | ------------------------------------ | --------------------------------------- | ----------------------------------------------------- |  
 | 1   | Sales Manager | to access a PowerBI dashboard        | effectively track which customers and products perform best each month/quarter/year | A PowerBI dashboard updated once daily.   |
 | 2   | Sales Rep     | A detailed PowerBI dashboard         | proactively engages with our most frequent customers and identifies potential future sales opportunities | A PowerBI dashboard that provides the functionality to filter data by each customer. |
 | 3   | Sales Rep     | a detailed overview of sales per product | efficiently monitor and manage the products that are selling the best | A PowerBI dashboard that provides the functionality to filter data by each product. |
