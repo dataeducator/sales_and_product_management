@@ -46,6 +46,7 @@ To clean and transform this data, I used Microsoft SQLServer to perform queries 
 This SQL query is designed to cleanse and structure the "DIM_Products" table. It extracts specific attributes while providing a more organized view of the data. The resulting table includes essential product information, such as product key, item code, product name, sub-category, product category, product color, size, product line, model name, and product description.
 
 ```sql
+-- Cleansed ProductDim_Table --
 SELECT p.[ProductKey]
 	,p.[ProductAlternateKey] AS ProductItemCode
 	,p.[EnglishProductName] AS [Product Name]
