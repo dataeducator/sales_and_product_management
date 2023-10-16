@@ -1,4 +1,14 @@
-# Sales Dashboard
+# Sales and Product Management Dashboard
+# Problem Statement
+Our sales reporting system relies on static reports that require more flexibility and depth for practical analysis. We must transition from static reports to dynamic visual dashboards to enhance our sales monitoring and decision-making process. 
+The primary challenges we face are:
+
+* __Lack of Detailed Product and Client Insights__: We cannot currently track the sales of individual products and understand the clients associated with each sale. This hampers our ability to tailor our sales strategies effectively.
+* __Inability to Assess Performance Trends__: We need a comprehensive system for evaluating the performance trends of our sales over time. This makes it difficult to make informed decisions and adapt to changing market dynamics.
+* __Budgetary Comparison__: Our budget data for the fiscal year 2022 needs to be more effectively integrated into our sales reporting, limiting our ability to compare actual sales performance against budgeted targets.
+
+* __Need for Filter Functionality__: Given the diverse range of products and clients managed by each salesperson, we require the capability to apply filters to analyze specific segments of our sales data.
+
 # Business Understanding
 # Data Understanding
 # Data Preparation
