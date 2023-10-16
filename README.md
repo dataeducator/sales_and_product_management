@@ -40,6 +40,27 @@ This database contains information about a fictional bicycle manufacturer, Adven
 The data in AdventureWorks 2022 is designed to support a wide range of scenarios and use cases for database and SQL practice. This README file covers the data's use in improving sales reporting and creating dynamic visual dashboards. Please ensure the AdventureWorks 2022 database is installed and accessible for this project.
 
 # Data Preparation
+To clean and transform this data, I used Microsoft SQLServer to perform queries on the Calendar, Customers and Products Dimension Tables, and the Budget and Internet Fact Tables.
+## Cleansed DIM_Products Table
+
+This SQL query is designed to cleanse and structure the "DIM_Products" table. It extracts specific attributes while providing a more organized view of the data. The resulting table includes essential product information, such as product key, item code, product name, sub-category, product category, product color, size, product line, model name, and product description.
+
+```sql
+SELECT p.[ProductKey]
+	,p.[ProductAlternateKey] AS ProductItemCode
+	,p.[EnglishProductName] AS [Product Name]
+	,ps.EnglishProductSubcategoryName AS [Sub Category]
+	,pc.EnglishProductCategoryName AS [Product Category]
+	,p.[Color] AS [Product Color]
+	,p.[Size] AS [Product Size]
+	,p.[ProductLine] AS [Product Line]
+	,p.[ModelName] AS [Product Model Name]
+	,p.[EnglishDescription] AS [Product Description]
+	,ISNULL(p.STATUS, 'Outdated') AS [Product Status]
+FROM AdventureWorksDW2022.dbo.DimProduct AS p
+LEFT JOIN AdventureWorksDW2022.dbo.DimProductSubcategory AS ps ON ps.ProductSubcategoryKey = p.ProductSubcategoryKey
+LEFT JOIN AdventureWorksDW2022.dbo.DimProductCategory AS pc ON ps.ProductCategoryKey = pc.ProductCategoryKey
+ORDER BY p.ProductKey ASC
 <img width="953" alt="cleansed_product_table_query" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/9fb049d0-67de-4edd-b01f-d1fbf4876a21">
 
 # Data Modeling
