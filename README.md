@@ -26,6 +26,19 @@ The primary challenges we face are:
 | 4   | Sales Manager | comprehensive PowerBI dashboard to oversee our sales performance over time, enabling a comparison against our budget | can effectively evaluate our sales performance | A PowerBI dashboard that includes graphs and Key Performance Indicators (KPIs) to facilitate a comparison with the budget. |
 
 # Data Understanding
+**Data Source:** [AdventureWorks 2022 Sample Database](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms) The project utilizes the AdventureWorks 2022 sample database, a comprehensive dataset provided by Microsoft, designed for learning and practicing SQL and database management. 
+
+This database contains information about a fictional bicycle manufacturer, Adventure Works Cycles, and encompasses various aspects of its operations, including sales, products, customers, and more. 
+#### Key Tables and Data Categories 
+1. **Sales Data:** The database contains sales-related information, including orders, order details, and sales territories.
+2. **Product Data:** Information about products, categories, and descriptions.
+3. **Customer Data:** Customer details, including names, addresses, and contact information.
+4. **Employee Data:** regarding employees, their positions, and departments.
+5. **Geographical Data:** Information about geographic regions and territories. 6.
+6. **Sales Data:** Data about budgets and financial performance.
+
+The data in AdventureWorks 2022 is designed to support a wide range of scenarios and use cases for database and SQL practice. This README file covers the data's use in improving sales reporting and creating dynamic visual dashboards. Please ensure the AdventureWorks 2022 database is installed and accessible for this project.
+
 # Data Preparation
 # Data Modeling
 # Data Evaluation
