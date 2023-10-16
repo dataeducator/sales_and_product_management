@@ -44,6 +44,7 @@ The data in AdventureWorks 2022 is designed to support a wide range of scenarios
 
 # Data Modeling
 <img width="536" alt="sales_report_model" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/6a6b3a1f-771a-412b-80f4-0e35750ff43e">
+
 # Model Evaluation
 
 # Model Deployment
