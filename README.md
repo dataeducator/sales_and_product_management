@@ -40,8 +40,9 @@ This database contains information about a fictional bicycle manufacturer, Adven
 The data in AdventureWorks 2022 is designed to support a wide range of scenarios and use cases for database and SQL practice. This README file covers the data's use in improving sales reporting and creating dynamic visual dashboards. Please ensure the AdventureWorks 2022 database is installed and accessible for this project.
 
 # Data Preparation
-# Data Modeling
 <img width="536" alt="sales_report_model" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/6a6b3a1f-771a-412b-80f4-0e35750ff43e">
+# Data Modeling
+
 # Data Evaluation
 
 <img width="953" alt="cleansed_product_table_query" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/9fb049d0-67de-4edd-b01f-d1fbf4876a21">
