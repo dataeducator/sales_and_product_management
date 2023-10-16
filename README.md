@@ -37,7 +37,7 @@ This database contains information about a fictional bicycle manufacturer, Adven
 ##### Dimension Tables
 1. **Product Data:** Information about products, categories, and descriptions.
 1. **Customer Data:** Customer details, including names, addresses, and contact information.
-1. **Calendar Data:** regarding employees, their positions, and departments.
+1. **Calendar Data:** Information about the year, quarter, month and day descriptions.
   
 
 
@@ -61,8 +61,8 @@ SELECT c.customerkey AS CustomerKey
 		END AS Gender
 	c.datefirstpurchase AS DateFirstPurchase
 	,g.city AS [Customer City]
-FROM dbo.DimCustomer AS c
-LEFT JOIN dbo.DimGeography AS g ON g.geographykey = c.geographykey
+FROM AdventureWorksDW2022.dbo.DimCustomer AS c
+LEFT JOIN AdventureWorksDW2022.dbo.DimGeography AS g ON g.geographykey = c.geographykey
 ORDER BY CustomerKey ASC
 ```
 ## Cleansed DIM_Products Table
@@ -93,15 +93,30 @@ ORDER BY p.ProductKey ASC
 <img width="536" alt="sales_report_model" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/6a6b3a1f-771a-412b-80f4-0e35750ff43e">
 
 # Model Evaluation
-
-# Model Deployment
-
-
+## Sales Overview Report
 <img width="603" alt="sales_overview_report" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/5a490d6c-b1a7-4f3d-9476-44e250d28a48">
+## Product Details Report
 <img width="605" alt="Product Details Report" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/f00bb851-646f-4c42-900b-160a3f071672">
+## Customer Details Report
 <img width="605" alt="customer_details_report" src="https://github.com/dataeducator/sales_dashboard/assets/107881738/0bbf3801-0947-4e95-a56c-31c0f8025e03">
 
+The created Power BI report comprises three pages catering to different user needs and roles.
+It is updated daily, ensuring that the data is current.
+The report can be filtered by customer, product, city, month, and year, providing a high level of customization.
+The report displays the top 10 products and top 10 customers, delivering valuable insights.
+It includes shipment information by category and subcategory, enabling detailed product analysis.
+The report intensifies the data analysis by showing the city and day of the week for the top 10 products.
+
+# Model Deployment
+To deploy this model, I published the dashboard [here](https://bit.ly/norwood_sales_product_dashboard) for users to test and give feedback to the team. 
+
 # Future Work
+Some ideas for future work include: 
+1. Sales Forecasting: Implement a sales forecasting system that uses historical sales data from AdventureWorks2022 to predict future sales.
+1. Inventory Management: Create an inventory management module that monitors product stock levels and generates alerts when products run low.
+1. Customer Segmentation: Develop a customer segmentation analysis to group customers based on their purchase behavior, demographics, and other attributes.
+
+
 Please review my full analysis in [my notebook](https://github.com/dataeducator/healthy_heart/blob/main/notebook.ipynb ) or ([my presentation](https://github.com/dataeducator/healthy_heart/blob/main/presentation.pdf )).
 Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have more questions.
 
