@@ -41,6 +41,26 @@ The data in AdventureWorks 2022 is designed to support a wide range of scenarios
 
 # Data Preparation
 To clean and transform this data, I used Microsoft SQLServer to perform queries on the Calendar, Customers and Products Dimension Tables, and the Budget and Internet Fact Tables.
+## Cleansed DIM_Customers Table
+## Cleansed DIM_Customers Table
+
+This SQL query cleans and structures the "DIM_Customers" table, providing a more organized view of the customer data. The resulting table includes essential customer attributes, such as customer key, first name, last name, full name (combined from first and last name), and gender (with values transformed from 'M' to 'Male' and 'F' to 'Female'). The query also incorporates data from the "DIM_Geography" table to include customer city information.
+
+```sql
+SELECT c.customerkey AS CustomerKey
+	,c.firstname AS [FirstName]
+	,c.lastname AS [LastName]
+	,c.firstname + ' ' + c.lastname AS [FullName]
+	CASE c.gender
+		WHEN 'M' THEN 'Male'
+		WHEN 'F' THEN 'Female'
+		END AS Gender
+	c.datefirstpurchase AS DateFirstPurchase
+	,g.city AS [Customer City]
+FROM dbo.DimCustomer AS c
+LEFT JOIN dbo.DimGeography AS g ON g.geographykey = c.geographykey
+ORDER BY CustomerKey ASC
+```
 ## Cleansed DIM_Products Table
 
 This SQL query is designed to cleanse and structure the "DIM_Products" table. It extracts specific attributes while providing a more organized view of the data. The resulting table includes essential product information, such as product key, item code, product name, sub-category, product category, product color, size, product line, model name, and product description.
